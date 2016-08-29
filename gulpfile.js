@@ -1,6 +1,7 @@
 const elixir = require('laravel-elixir');
+const htmlmin = require('gulp-htmlmin');
 
-require('laravel-elixir-vue');
+require('laravel-elixir-html-minify');
 
 /*
  |--------------------------------------------------------------------------
@@ -14,6 +15,8 @@ require('laravel-elixir-vue');
  */
 
 elixir(mix => {
-    mix.sass('app.scss')
-       .webpack('app.js');
+    mix
+    	.styles('main.css')
+    	.scriptsIn('public/js/')
+    	.version(['css/main.css', 'js/app.js'])
 });
