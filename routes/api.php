@@ -16,3 +16,12 @@ use Illuminate\Http\Request;
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
+
+Route::group(['prefix' => 'gallery', 'namespace' => 'Gallery', 'middleware' => 'jwt.auth'], function() {
+	// get all galleries
+	Route::get('/', 'GalleryController@index');
+
+	// create a new gallery
+	Route::post('/', 'GalleryController@create');
+
+});

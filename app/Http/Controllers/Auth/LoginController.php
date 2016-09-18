@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Auth;
 
+use Tymon\JWTAuth\JWTAuth;
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -25,15 +27,33 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/admin';
+
+    /**
+     * JWT library
+     * @var JWTAuth
+     */
+    protected $auth;
 
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(JWTAuth $auth)
     {
+        $this->auth = $auth;
         $this->middleware('guest', ['except' => 'logout']);
+    }
+
+    public function logout(Request $request)
+    {
+        if ($token = $this->auth->getToken()) {
+            $this->auth->invalidate();
+        }
+        
+        \Auth::logout();
+
+        return redirect()->route('login');
     }
 }

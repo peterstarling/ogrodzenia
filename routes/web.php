@@ -19,6 +19,13 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::group(['middleware' => 'auth', 'prefix' => 'admin', 'namespace' => 'Admin'], function () {
-	Route::get('/', 'IndexController@index');
+Route::get('/logout', 'Auth\LoginController@logout');
+
+
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth'], function () {
+
+	Route::get('{any?}', 'IndexController@index')->where('any', '^([^.]+)$');
 });
+
+
+Route::get('/home', 'HomeController@index');

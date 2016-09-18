@@ -164,12 +164,6 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
-         * Package Service Providers...
-         */
-
-        //
-
-        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
@@ -177,6 +171,14 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\BladeServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
+        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+        /*
+         * Custom providers
+         */
+        App\Providers\ResponseServiceProvider::class,
+
 
     ],
 

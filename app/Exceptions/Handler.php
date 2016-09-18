@@ -4,7 +4,11 @@ namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;
+use Illuminate\Validation\ValidationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+
+use App\Exceptions\CustomException;
+use Starling\Libraries\Response\ResponseParser;
 
 class Handler extends ExceptionHandler
 {
@@ -44,7 +48,25 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-        return parent::render($request, $exception);
+        if ($request->route() === null || !in_array('api', $request->route()->middleware())) {
+            return parent::render($request, $exception);
+        }
+
+        if ($exception instanceof ValidationException) {
+            $code = 422;
+        } elseif ($exception instanceof CustomException) {
+            $code = $exception->getCode();
+        } elseif ($exception instanceof AuthenticationException) {
+            $code = 401;
+        } else {
+            $code = 500;
+        }
+
+        $parser = app()->make(ResponseParser::class);
+        $parser->setCode($code);
+        $parser->addOptional(['trace' => $exception->getTrace()]);
+
+        return $exception->getMessage();
     }
 
     /**
