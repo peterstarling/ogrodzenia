@@ -7,6 +7,10 @@ var rev = require('gulp-rev');
 var revDel = require('rev-del');
 var uglify = require('gulp-uglify');
 var stringify = require('stringify');
+var concat = require('gulp-concat');
+var sourcemaps = require('gulp-sourcemaps');
+var rename = require('gulp-rename');
+var minifyCSS = require('gulp-minify-css');
 
 var exposeConfig = { expose: { angular: 'angular' } };
 
@@ -39,6 +43,24 @@ gulp.task('default', () => {
         .pipe(revDel({ oldManifest: 'public/build/rev-manifest.json', dest: 'public/build' }))
         .pipe(gulp.dest('public/build'));
 
+});
+
+gulp.task('js', function() {
+	gulp.src('resources/assets/js/*.js')
+		.pipe(sourcemaps.init())
+		.pipe(concat('all.js'))
+		.pipe(gulp.dest('public/js'))
+		.pipe(rename('all.min.js'))
+		.pipe(uglify())
+		.pipe(sourcemaps.write('./'))
+  		.pipe(gulp.dest('public/js'));
+});
+
+gulp.task('css', function() {
+	gulp.src('resources/assets/css/all.css')
+		.pipe(minifyCSS())
+		.pipe(concat('all.min.css'))
+		.pipe(gulp.dest('public/css'));
 });
 
 gulp.task('watch', function() {

@@ -1,0 +1,42 @@
+@font-face {
+src: url('../fonts/Exo-Thin.ttf');
+font-family: 'Exo';
+font-weight: 100;
+}
+
+@font-face {
+src: url('../fonts/Exo-Bold.ttf');
+font-family: 'Exo';
+font-weight: Bold;
+} 
+
+@font-face {
+src: url('../fonts/Exo-SemiBold.ttf');
+font-family: 'Exo';
+font-weight: 600;
+} 
+
+@font-face {
+src: url('../fonts/SourceSansPro-Regular.ttf');
+font-family: 'SSansPro';
+font-weight: normal;
+}
+
+@font-face {
+src: url('../fonts/SourceSansPro-ExtraLight.ttf');
+font-family: 'SSansPro';
+font-weight: 100;
+}
+
+@font-face {
+src: url('../fonts/SourceSansPro-Light.ttf');
+font-family: 'SSansPro';
+font-weight: 200;
+}
+
+@font-face {
+src: url('../fonts/SourceSansPro-SemiboldItalic.ttf');
+font-family: 'SSansPro';
+font-weight: 600;
+font-style: italic;
+}

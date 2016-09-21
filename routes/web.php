@@ -10,22 +10,13 @@
 | to using a Closure or controller method. Build something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
-
 Route::get('/logout', 'Auth\LoginController@logout');
-
 
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth'], function () {
 
 	Route::get('{any?}', 'IndexController@index')->where('any', '^([^.]+)$');
 });
-
-
-Route::get('/home', 'HomeController@index');
