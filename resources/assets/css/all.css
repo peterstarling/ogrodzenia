@@ -206,6 +206,7 @@ padding: 0;
 ul.menu li {
 display: inline-block;
 margin: 0 20px;
+line-height: 36px;
 }
 
 ul.menu li:first-child {
@@ -229,14 +230,19 @@ max-height: 715px;
 overflow: hidden;
 }
 
+#slider .carousel-inner {
+height: 100%;
+}
+
 #slider img {
 opacity: 0.37;
 width: 100%;
-height: auto;
+height: 100%;
 }
 
 #slider .item {
 max-height: 715px;
+height: 100%;
 }
 
 #slider .carousel-caption {
@@ -520,14 +526,20 @@ display: block;
 overflow: hidden;
 }
 
+#tips .carousel-inner {
+height: 100%;
+}
+
 #tips img {
 width: 100%;
 margin: 0 auto;
 opacity: 0.14;
+height: 100%;
 }
 
 #tips .item {
 max-height: 330px;
+height: 100%;
 }
 
 #tips .carousel-caption, #tips .carousel-indicators {
@@ -1037,6 +1049,4 @@ padding-top: 100px;
 
 .info-bottom [class*='one-box-'] {
 padding: 60px 19px 20px 19px;
-}
-
 }
