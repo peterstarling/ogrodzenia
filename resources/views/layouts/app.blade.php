@@ -16,14 +16,14 @@
 		
 		<div class="container">
 			<div class="row no-padding">
-				<div class="top-tools">
+				<div class="top-tools hidden-xs">
 					<ul class="menu00">
-						<li><a href="#">Oferta</a></li>
-						<li><a href="#">Realizacje</a></li>
-						<li><a href="#">Realizacje dla firm</a></li>
+						<li><a href="{!! route('home') !!}">Strona główna</a></li>
+						<li><a href="{!! route('references') !!}">Referencje</a></li>
+						<li><a href="{!! route('about-us') !!}">O nas</a></li>
 					</ul>
 					<a href="#" class="o-lang">Polski <img src="/media/flag-pl.png"></a>
-					<form class="o-search" action="#">
+					<form class="o-search hidden" action="#">
 					  <input class="area-txt" type="text">
 					  <input class="button-search" type="submit">
 					</form>
@@ -32,7 +32,7 @@
 		  <div class="row line-2nd no-padding">
 			<div class="col-md-4 col-sm-12 col-xs-12">
 				<h1 class="logo">
-					<a href="./index.html" class="a-logo">BaluSteel</a>
+					<a href="{!! route('home') !!}" class="a-logo">BaluSteel</a>
 				</h1>
 			</div>
 			<div class="col-md-8 col-sm-12 col-xs-12">
@@ -53,12 +53,11 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				 
 						<ul class="menu">
-							<li><a href="./index.html">Strona główna</a></li>
-							<li><a href="./o-nas.html">O nas</a></li>
-							<li><a href="#">Poradnik</a></li>
-							<li><a href="#">Szlifowanie i polerowanie</a></li>
-							<li><a href="#">Referencje</a></li>
-							<li><a href="#">Kontakt</a></li>
+							<li><a href="{!! route('offer') !!}">Oferta</a></li>
+							<li><a href="{!! route('price-list') !!}">Cennik</a></li>
+							<li><a href="{!! route('projects') !!}">Realizacje</a></li>
+							<li><a href="{!! route('guidebook') !!}">Poradnik</a></li>
+							<li><a href="{!! route('contact-us') !!}">Kontakt</a></li>
 						</ul>
 				 
 					</div>

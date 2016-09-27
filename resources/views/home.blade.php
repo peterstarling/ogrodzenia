@@ -80,20 +80,13 @@
 				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
 			</li>
 			
-			<li data-target="#slider" data-slide-to="1" class="active">
-				<span class="button-arrow-left"></span>
-
-				<h3>Ogrodzenia systemowe</h3>
-				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
-			</li>
-			
 			<li data-target="#slider" data-slide-to="2">
 				<span class="button-arrow-left"></span>
 
 				<h3>Balustrady</h3>
 				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
 			</li>
-			
+
 			<li data-target="#slider" data-slide-to="3">
 				<span class="button-arrow-left"></span>
 
@@ -101,10 +94,17 @@
 				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
 			</li>
 
+			<li data-target="#slider" data-slide-to="1" class="active">
+				<span class="button-arrow-left"></span>
+
+				<h3>Bramy garażowe</h3>
+				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
+			</li>
+
 			<li data-target="#slider" data-slide-to="4">
 				<span class="button-arrow-left"></span>
 
-				<h3>Ślusarka budowlana</h3>
+				<h3>Rolety zewnętrzne</h3>
 				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
 			</li>
 		</ul>
