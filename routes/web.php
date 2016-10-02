@@ -17,23 +17,26 @@ Route::get('/', 'HomeController@index')->name('home');
 // Contact us
 Route::get('kontakt.html', 'ContactController@index')->name('contact-us');
 
-// Referencje
-Route::get('referencje.html', 'PagesController@references')->name('references');
+Route::post('kontakt.html', 'ContactController@send');
+
+
+// References
+Route::get('referencje.html', 'PageController@references')->name('references');
 
 // About us
-Route::get('o-nas.html', 'PagesController@aboutUs')->name('about-us');
+Route::get('o-nas.html', 'PageController@aboutUs')->name('about-us');
 
 // Offer
-Route::get('oferta.html', 'PagesController@offer')->name('offer');
+Route::get('oferta.html', 'PageController@offer')->name('offer');
 
 // Price list
-Route::get('cennik.html', 'PagesController@priceList')->name('price-list');
+Route::get('cennik.html', 'PageController@priceList')->name('price-list');
 
 // Projects
-Route::get('realizacje.html', 'PagesController@projects')->name('projects');
+Route::get('realizacje.html', 'PageController@projects')->name('projects');
 
 // Guidebook
-Route::get('poradnik.html', 'PagesController@guidebook')->name('guidebook');
+Route::get('poradnik.html', 'PageController@guidebook')->name('guidebook');
 
 Auth::routes();
 

@@ -1,15 +1,15 @@
 <?php
 
-return array(
-  "driver" => "smtp",
-  "host" => "mailtrap.io",
-  "port" => 2525,
+return [
+  "driver" => env('MAIL_DRIVER', 'smtp'),
+  "host" => env('MAIL_HOST', "mailtrap.io"),
+  "port" => env('MAIL_PORT', 2525),
   "from" => array(
-      "address" => "from@example.com",
-      "name" => "Example"
+      "address" => "no-reply@balusteel.eu",
+      "name" => "Balusteel Ogrodzenia"
   ),
-  "username" => "37239b98c1601daf9",
-  "password" => "7003266a609df4",
+  "username" => env('MAIL_USERNAME', "37239b98c1601daf9"),
+  "password" => env('MAIL_PASSWORD', "7003266a609df4"),
   "sendmail" => "/usr/sbin/sendmail -bs",
   "pretend" => false
-);
+];
