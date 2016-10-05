@@ -29,7 +29,7 @@ class ContactController extends Controller
      */
     public function send(PostContactRequest $request)
     {
-        \Mail::to(env('MAIL_OWN'))->queue(new ContactEnquiry($request->all()));
+        \Mail::to(config('mail.own'))->queue(new ContactEnquiry($request->all()));
 
         return view('contact/confirmation');
     }
