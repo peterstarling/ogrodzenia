@@ -29,4 +29,40 @@ class PageController extends Controller
 
         return view('pages/contact-us');
     }
+
+    /**
+     * References page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function references()
+    {
+        \Meta::set('title', 'Referencje');
+
+        return view('pages/references');
+    }
+
+    /**
+     * Offer page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function offer()
+    {
+        \Meta::set('title', 'Oferta');
+
+        return view('pages/offer');
+    }
+
+    /**
+     * Price list page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function priceList()
+    {
+        \Meta::set('title', 'Cennik');
+
+        return view('pages/price-list');
+    }
 }

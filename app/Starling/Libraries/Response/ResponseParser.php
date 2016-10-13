@@ -87,21 +87,22 @@ class ResponseParser
 	{
 		$response = [];
 
-
 		if (!in_array($this->code, [200, 201])) {
 			$response['status'] = 'ERROR';
 			$response['message'] = $this->input;
 		} else {
 			$response['status'] = 'OK';
-			$response['data'] = $this->input;
+			$response['data'] = json_decode($this->input);
 		}
 
 		$response = array_merge($response, (array) $this->optional);
 
-		$output = $this->responseFormatter->format($response);
+		// $output = $this->responseFormatter->format($response);
 
-		$this->response->setContent($output);
+		$this->response->setContent($response);
 		$this->response->setStatusCode($this->code);
+
+		$this->response->header('Content-type', 'application/json');
 		
 		return $this->response;		
 	}

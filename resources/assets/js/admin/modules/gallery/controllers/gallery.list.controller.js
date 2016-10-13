@@ -5,8 +5,8 @@ export default class GalleryListController {
     constructor(API) {
         this.message = 'helloooo';
 
-        API.gallery.query().$promise.then(function (response) {
-        	console.log(response);
+        API.gallery.get().$promise.then(function (response) {
+        	console.log(response.data);
         });
     }
 
