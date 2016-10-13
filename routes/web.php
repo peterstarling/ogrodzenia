@@ -33,7 +33,7 @@ Route::get('oferta.html', 'PageController@offer')->name('offer');
 Route::get('cennik.html', 'PageController@priceList')->name('price-list');
 
 // Projects
-Route::get('realizacje.html', 'PageController@projects')->name('projects');
+Route::get('realizacje.html', 'ProjectController@index')->name('projects');
 
 // Guidebook
 Route::get('poradnik.html', 'PageController@guidebook')->name('guidebook');

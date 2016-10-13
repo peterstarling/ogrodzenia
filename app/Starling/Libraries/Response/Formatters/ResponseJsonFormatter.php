@@ -8,6 +8,6 @@ class ResponseJsonFormatter implements ResponseFormatInterface
 {
 	public function format($data)
 	{
-		return json_encode($data);
+		return json_decode($data);
 	}
 }

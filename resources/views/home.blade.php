@@ -69,6 +69,19 @@
 				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
 	  		</div>
 		</div>
+
+		<div class="item">
+			<img src="./media/slider-img00.jpg" alt="">
+
+			<div class="carousel-caption">
+				<h2>Social media marketing <div class="sub-text-s">oraz zdobyta wiedza</div></h2>
+
+				<p>Firma BaluSteel Poznań specjalizuje się w produkcji balustrad, ogrodzeń, schodów, zadaszeń, mebli oraz innych elementów ze stali nierdzewnej.</p>
+				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem czy drewnem, tworząc oryginalne i nieprzęciętne rozwiązania.</p>
+				
+				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
+			</div>
+		</div>
 	</div>
 	<div class="container center-top00">
 		<ul class="carousel-indicators">
@@ -80,28 +93,35 @@
 				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
 			</li>
 			
-			<li data-target="#slider" data-slide-to="2">
+			<li data-target="#slider" data-slide-to="1">
 				<span class="button-arrow-left"></span>
 
 				<h3>Balustrady</h3>
 				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
 			</li>
 
-			<li data-target="#slider" data-slide-to="3">
+			<li data-target="#slider" data-slide-to="2">
+				<span class="button-arrow-left"></span>
+
+				<h3>Konstrukcje stalowe</h3>
+				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
+			</li>
+
+			<li data-target="#slider" data-slide-to="3" class="active">
 				<span class="button-arrow-left"></span>
 
 				<h3>Automatyka</h3>
 				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
 			</li>
 
-			<li data-target="#slider" data-slide-to="1" class="active">
+			<li data-target="#slider" data-slide-to="4">
 				<span class="button-arrow-left"></span>
 
 				<h3>Bramy garażowe</h3>
 				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
 			</li>
 
-			<li data-target="#slider" data-slide-to="4">
+			<li data-target="#slider" data-slide-to="5">
 				<span class="button-arrow-left"></span>
 
 				<h3>Rolety zewnętrzne</h3>

@@ -65,4 +65,6 @@ gulp.task('css', function() {
 
 gulp.task('watch', function() {
 	gulp.watch(['resources/assets/js/**/*.js'], ['default']);
+
+	gulp.watch(['resources/assets/css/**/*.css'], ['css']);
 });
