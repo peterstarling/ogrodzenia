@@ -38,7 +38,9 @@ class ResponseMiddleware
     {
         $response = $next($request);
 
-        if ($response instanceof Response) {
+        if ($response instanceof ResponseParser) {
+            return $response->output();
+        } elseif ($response instanceof Response) {
             $content = $response->content();
         } elseif ($response instanceof JsonResponse) {
             $response->setStatusCode(401);
@@ -46,7 +48,6 @@ class ResponseMiddleware
         } else {
             $content = $response;
         }
-
         $this->parser->setContent($content);
 
         return $this->parser->output();

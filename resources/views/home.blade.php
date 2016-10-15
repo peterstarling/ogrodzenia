@@ -9,12 +9,12 @@
 		  	<img src="./media/slider-img00.jpg" alt="">
 		  
 		  	<div class="carousel-caption">
-				<h2>Tworzenie stron <div class="sub-text-s">oraz zdobyta wiedza</div></h2>
+				<h2>Wieloletnie doświadczenie <div class="sub-text-s">oraz zdobyta wiedza</div></h2>
 				
-				<p>Firma BaluSteel Poznań specjalizuje się w produkcji balustrad, ogrodzeń, schodów, zadaszeń, mebli oraz innych elementów ze stali nierdzewnej.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem czy drewnem, tworząc oryginalne i nieprzęciętne rozwiązania.</p>
+				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
+				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
+				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
 		  	</div>
 		</div>
 
@@ -22,12 +22,12 @@
 		  	<img src="./media/slider-img00.jpg" alt="">
 		  
 		  	<div class="carousel-caption">
-				<h2>Wieloletnie doświadczenie <div class="sub-text-s">oraz zdobyta wiedza</div></h2>
+				<h2>Stworzone dla&nbsp;ciebie <div class="sub-text-s">Wykonamy najtrudniejszy projekt</div></h2>
 				
-				<p>Firma BaluSteel Poznań specjalizuje się w produkcji balustrad, ogrodzeń, schodów, zadaszeń, mebli oraz innych elementów ze stali nierdzewnej.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem czy drewnem, tworząc oryginalne i nieprzęciętne rozwiązania.</p>
+				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
+				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
+				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
 		  	</div>
 		</div>
 
@@ -35,12 +35,12 @@
 		  	<img src="./media/slider-img00.jpg" alt="">
 		  
 		  	<div class="carousel-caption">
-				<h2>Marketing szeptany <div class="sub-text-s">oraz zdobyta wiedza</div></h2>
+				<h2>Ułatwiamy codzienność <div class="sub-text-s">automatyka dla Ciebie</div></h2>
 
-				<p>Firma BaluSteel Poznań specjalizuje się w produkcji balustrad, ogrodzeń, schodów, zadaszeń, mebli oraz innych elementów ze stali nierdzewnej.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem czy drewnem, tworząc oryginalne i nieprzęciętne rozwiązania.</p>
+				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
+				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
+				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
 		  	</div>
 		</div>
 
@@ -48,12 +48,12 @@
 			<img src="./media/slider-img00.jpg" alt="">
 
 			<div class="carousel-caption">
-				<h2>Social media marketing <div class="sub-text-s">oraz zdobyta wiedza</div></h2>
+				<h2>Profesjonalny montaż <div class="sub-text-s">tylko najlepsi fachowcy</div></h2>
 
-				<p>Firma BaluSteel Poznań specjalizuje się w produkcji balustrad, ogrodzeń, schodów, zadaszeń, mebli oraz innych elementów ze stali nierdzewnej.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem czy drewnem, tworząc oryginalne i nieprzęciętne rozwiązania.</p>
+				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
+				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
+				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
 			</div>
 		</div>
 
@@ -61,12 +61,12 @@
 		  	<img src="./media/slider-img00.jpg" alt="">
 		  
 		  	<div class="carousel-caption">
-				<h2>Social media marketing <div class="sub-text-s">oraz zdobyta wiedza</div></h2>
+				<h2>Prywatność i bezpieczeństwo <div class="sub-text-s">zadbamy o to</div></h2>
 
-				<p>Firma BaluSteel Poznań specjalizuje się w produkcji balustrad, ogrodzeń, schodów, zadaszeń, mebli oraz innych elementów ze stali nierdzewnej.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem czy drewnem, tworząc oryginalne i nieprzęciętne rozwiązania.</p>
+				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
+				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
+				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
 	  		</div>
 		</div>
 
@@ -74,12 +74,12 @@
 			<img src="./media/slider-img00.jpg" alt="">
 
 			<div class="carousel-caption">
-				<h2>Social media marketing <div class="sub-text-s">oraz zdobyta wiedza</div></h2>
+				<h2>Szybkość działania<div class="sub-text-s">Spóźniony klient? Pomożemy</div></h2>
 
-				<p>Firma BaluSteel Poznań specjalizuje się w produkcji balustrad, ogrodzeń, schodów, zadaszeń, mebli oraz innych elementów ze stali nierdzewnej.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem czy drewnem, tworząc oryginalne i nieprzęciętne rozwiązania.</p>
+				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
+				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
+				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
 			</div>
 		</div>
 	</div>
@@ -90,55 +90,46 @@
 				<span class="button-arrow-left"></span>
 
 				<h3>Ogrodzenia</h3>
-				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
+				<p>Najlepszą wizytówką każdego domu jest solidne i nowoczesne ogrodzenie.</p>
 			</li>
 			
 			<li data-target="#slider" data-slide-to="1">
 				<span class="button-arrow-left"></span>
 
 				<h3>Balustrady</h3>
-				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
+				<p>Dzięki zastosowaniu najlepszych materiałów zabezpieczenie balkonu lub schodów stanie się ozdobą.</p>
 			</li>
 
-			<li data-target="#slider" data-slide-to="2">
-				<span class="button-arrow-left"></span>
-
-				<h3>Konstrukcje stalowe</h3>
-				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
-			</li>
-
-			<li data-target="#slider" data-slide-to="3" class="active">
+			<li data-target="#slider" data-slide-to="2" class="active">
 				<span class="button-arrow-left"></span>
 
 				<h3>Automatyka</h3>
-				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
+				<p>Ułatwimy twoje codzienne życie.</p>
+			</li>
+
+			<li data-target="#slider" data-slide-to="3">
+				<span class="button-arrow-left"></span>
+
+				<h3>Bramy garażowe</h3>
+				<p>Oferujemy sprawdzone bramy, dzięki którym zapewnisz sobie spokój na długie lata.</p>
 			</li>
 
 			<li data-target="#slider" data-slide-to="4">
 				<span class="button-arrow-left"></span>
 
-				<h3>Bramy garażowe</h3>
-				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
+				<h3>Rolety zewnętrzne</h3>
+				<p>Prywatność i spokój oraz dodatkowa izolacja termiczna to inwestycja która się opłaca.</p>
 			</li>
 
 			<li data-target="#slider" data-slide-to="5">
 				<span class="button-arrow-left"></span>
 
-				<h3>Rolety zewnętrzne</h3>
-				<p>Dziś każda szanująca się firma posiada swoją wizytówkę jaką jest strona internetowa.</p>
+				<h3>Konstrukcje stalowe</h3>
+				<p>Wykonamy i zmontujemy prawie każdą konstrukcję stalową. Zaczynając od schodów na halach i magazynach kończąc.</p>
 			</li>
 		</ul>
 		  
-		<div class="box-welcome-info">
-
-			<h3>Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic.</h3>
-
-			<p>Bardzo często łączymy swoje wyroby ze szkłem czy drewnem tworząc oryginalne i nieprzeciętne rozwiązania.</p>
-			<p>Wykonujemy pomiary oraz wycenę u klienta GRATIS. Do każdego zamówienia podchodzimy indywidualnie, zawsze starając się dostosować do wymagań i budżetu zamawiającego.</p>
-
-			<span>Zapraszamy do współpracy</span>
-
-		</div>
+		@include('layouts/box-welcome-info')
 	</div>
 		
 	<div class="right-backdrop-color"></div>
@@ -157,8 +148,8 @@
 			<div class="box-one-p00">
 				<div class="one-panel00 col-md-3 col-sm-3 col-xs-12">
 					<span class="n-date">02<sup>07</sup></span>
-					<h4>Nam mattis lorem sit amet</h4>
-					<p>Morbi tincidunt purus et augue tristique maximus. In ac dictum massa. Cras a tellus non sapien commodo aliquet purus et augue tristique maximus.</p>
+					<h4>Produkty objęte gwarancją</h4>
+					<p>Wybierając produkty firmy BaluSteel wybierasz jakość. Wszystkie wykonane przez nas i zamontowane elementy objęte są gwarancją. W przypadku wystąpienia wad nigdy nie pozostaniesz bez fachowej pomocy.</p>
 					<a href="#" class="n-button-more">Więcej</a>
 				</div>
 				<div class="one-panel00 col-md-3 col-sm-3 col-xs-12">

@@ -98,12 +98,11 @@ class ResponseParser
 		$response = array_merge($response, (array) $this->optional);
 
 		// $output = $this->responseFormatter->format($response);
-
 		$this->response->setContent($response);
 		$this->response->setStatusCode($this->code);
 
 		$this->response->header('Content-type', 'application/json');
-		
+
 		return $this->response;		
 	}
 }

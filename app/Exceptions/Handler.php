@@ -65,8 +65,9 @@ class Handler extends ExceptionHandler
         $parser = app()->make(ResponseParser::class);
         $parser->setCode($code);
         $parser->addOptional(['trace' => $exception->getTrace()]);
+        $parser->setContent($exception->getMessage());
 
-        return $exception->getMessage();
+        return $parser;
     }
 
     /**
@@ -79,7 +80,7 @@ class Handler extends ExceptionHandler
     protected function unauthenticated($request, AuthenticationException $exception)
     {
         if ($request->expectsJson()) {
-            return response()->json(['error' => 'Unauthenticated.'], 401);
+            return response()->json(['status' => 'ERROR', 'message' => 'Unauthenticated.'], 401);
         }
 
         return redirect()->guest('login');
