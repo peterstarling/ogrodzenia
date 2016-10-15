@@ -24,7 +24,9 @@ Route::group(['prefix' => 'gallery', 'namespace' => 'Gallery', 'middleware' => '
 	// create a new gallery
 	Route::post('/', 'GalleryController@create');
 
-	Route::group(['prefix' => '{gallery_id}/photos', 'namespace' => 'Gallery\\Photos'], function() {
+	Route::group(['prefix' => '{gallery_id}/photos'], function() {
+		// add a new photo
+		Route::post('/', 'GalleryController@addPhoto');
 
 	});
 
