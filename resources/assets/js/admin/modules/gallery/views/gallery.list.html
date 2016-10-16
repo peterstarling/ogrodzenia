@@ -1,3 +1,33 @@
-<h1>{{$controller.message}}</h1>
+<section class="content-header">
+  <h1>
+    Realizacje
+    <small>Panel zarządzania</small>
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="/"><i class="fa fa-dashboard"></i> Strona główna</a></li>
+    <li class="active">Realizacje</li>
+  </ol>
+</section>  
 
-lista galerii
+<section class="content">
+	<div class="row">
+        <ul class="timeline">
+            <li ng-repeat="gallery in $controller.galleries track by gallery.id">
+            	<i class="fa fa-camera bg-purple"></i>
+
+              	<div class="timeline-item">
+                	<span class="time"><i class="fa fa-clock-o"></i> {{ gallery.created_at }}</span>
+
+                	<h3 class="timeline-header"><a href="#" ng-bind="gallery.name"></a> 
+                		{{ gallery.description | limitTo: 40 }}{{gallery.description.length > 40 ? '...' : ''}}
+                		<a ui-sref="gallery.manage({gallery_id: gallery.id})"><i class="fa fa-edit"></i></a>
+                	</h3>
+
+                	<div class="timeline-body">
+                		<img ng-repeat="photo in gallery.photos track by photo.id" ng-src="{{photo.path.mini}}" class="margin">
+               		</div>
+              	</div>
+            </li>
+    	</ul>
+	</div>
+</section>
