@@ -13,8 +13,13 @@
 			<div class="content-sub-page">
 			
 				<h3>Nieprzeciętne rozwiązania</h3>
-				<p class="txt-line-2nd">{!! var_dump($projects) !!}</p>
-			
+				<div>
+					@foreach($projects as $project)
+						<div class="col-lg-4 col-md-6 col-xs-6 thumb text-center">
+							
+						</div>
+					@endforeach
+				</div>
 			</div>
 		</div>
 

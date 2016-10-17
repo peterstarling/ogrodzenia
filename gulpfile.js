@@ -26,6 +26,7 @@ gulp.task('default', () => {
 	app
 	  	.transform("babelify", {
 	  		presets: ["es2015"],
+	  		plugins: ["transform-class-properties"]
 	  	})
 	  	.transform('exposify', exposeConfig)
 	  	.transform(stringify, {
@@ -64,7 +65,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('watch', function() {
-	gulp.watch(['resources/assets/js/**/*.js'], ['default']);
+	gulp.watch(['resources/assets/js/**/*.js', 'resources/assets/js/**/*.html'], ['default']);
 
 	gulp.watch(['resources/assets/css/**/*.css'], ['css']);
 });

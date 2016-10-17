@@ -5,6 +5,7 @@ namespace App\Exceptions;
 use Exception;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Validation\ValidationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 use App\Exceptions\CustomException;
@@ -58,13 +59,19 @@ class Handler extends ExceptionHandler
             $code = $exception->getCode();
         } elseif ($exception instanceof AuthenticationException) {
             $code = 401;
+        } elseif ($exception instanceof ModelNotFoundException) {
+            $code = 404;
         } else {
             $code = 500;
-        }
+        }  
 
         $parser = app()->make(ResponseParser::class);
         $parser->setCode($code);
-        $parser->addOptional(['trace' => $exception->getTrace()]);
+
+        if (env('APP_ENV') !== 'production') {
+            $parser->addOptional(['trace' => $exception->getTrace()]);
+        }
+
         $parser->setContent($exception->getMessage());
 
         return $parser;
