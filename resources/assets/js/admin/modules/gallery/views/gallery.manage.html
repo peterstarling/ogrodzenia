@@ -1,2 +1,106 @@
-asdasdas
- {{ $controller.message }}
+<section class="content-header">
+	<h1 ng-bind="$controller.gallery.name"></h1>
+	
+	<ol class="breadcrumb">
+		<li><a ui-sref="home"><i class="fa fa-dashboard"></i> Strona główna</a></li>
+		<li><a ui-sref="gallery.list">Realizacje</a></li>
+		<li class="active">{{ $controller.gallery.name }}</li>
+</ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+
+<!-- Default box -->
+<div class="box">
+<div class="box-header with-border">
+  <h3 class="box-title">Zarządzaj galerią</h3>
+
+</div>
+<div class="box-body">
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="edytuj">
+      <i class="fa fa-edit"></i></button>
+  </div>
+  <div id="description" ng-bind="$controller.gallery.description"></div>
+</div>
+<!-- /.box-body -->
+<div class="box-footer">
+	<div id="photos" class="row">
+		<div ng-repeat="photo in $controller.gallery.photos track by photo.id" class="col-lg-4 col-md-6 col-xs-6 thumb text-center" style="height: 250px" ng-class="$controller.gallery.default_photo === photo.id ? 'default' : ''">
+			<img ng-src="{{photo.path.mini}}" style="margin: 5px auto"><br>
+  			<span ng-bind="photo.title"></span>
+  			<a ng-click="$controller.onSetDefaultPhoto(photo.id)" href="#" ng-show="$controller.gallery.default_photo !== photo.id">
+  				<i class="fa fa-check-square-o" title="ustaw jako domyślne"></i>
+  			</a>
+  			<a ng-click="$controller.onDeletePhoto(photo.id)" href="#">
+  				<i class="fa fa-remove" title="usuń"></i>
+  			</a>
+		</div>
+	</div>
+</div>
+<!-- /.box-footer-->
+</div>
+<!-- /.box -->
+
+<div class="row">
+	<!-- left column -->
+	<div class="col-md-6">
+	<!-- general form elements -->
+		<form role="form" ng-submit="$controller.onSubmitPhoto()">
+			<div class="box box-primary">
+				<div class="box-header with-border">
+					<h3 class="box-title">Dodaj zdjęcie</h3>
+				</div>
+				<div class="box-body">
+
+	                <div class="form-group">
+						<label for="title">Tytuł zdjęcia</label>
+						<input class="form-control" id="exampleInputEmail1" placeholder="Enter email"
+							ng-model="$controller.title">
+					</div>
+
+					<div class="form-group" id="file-uploader" 
+						ngf-drop ng-model="$controller.file" ngf-drag-over-class="'file-over'" 
+						ngf-multiple="false" ngf-pattern="'image/*'"
+						ngf-max-size="3MB" ngf-accept="'image/*'"> 
+						<label for="photo">File input</label>
+						<input type="file" class="button" ngf-select ng-model="$controller.file" name="file" 
+							ngf-pattern="'image/*'"
+						    ngf-accept="'image/*'" ngf-max-size="3MB" ngf-min-height="100">
+						    Select</div>
+
+						<p class="help-block">Wybierz zdjęcie (max 3 Mb).</p>
+						<img class="thumb" style="max-width: 350px;" ngf-thumbnail="$controller.file">
+					</div>
+					<div class="box-footer">
+						<div class="progress progress-sm" ng-show="$controller.progress">
+			                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="{{$controller.progress}}" aria-valuemin="0" aria-valuemax="100" style="width: {{$controller.progress}}%">
+			                  <span class="sr-only">{{$controller.progress}}%</span>
+			                </div>
+			             </div>
+						<button type="submit" class="btn btn-primary">Dodaj</button>
+					</div>
+				</div>
+			</div>
+		</form>
+			<!-- /.box -->
+	</div>
+</div>
+
+</section>
+<style>
+#file-uploader {
+}
+#file-uploader.file-over {
+	border: 1px dashed gray;
+}
+#file-uploader img {
+	max-width: 350px;
+	max-height: 250px;
+}
+
+div#photos div.default img {
+	border: 2px solid green;
+}
+</style>

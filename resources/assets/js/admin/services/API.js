@@ -9,7 +9,11 @@ class API {
 		const url = 'http://ogrodzenia.dev/api'
 
 
-		resources.gallery = $resource(url + '/gallery/:id');
+		resources.gallery = $resource(url + '/gallery/:id', null, {
+	        'update': { method:'PUT' }
+	    });
+
+		resources.photos = $resource(url + '/gallery/:galleryId/photos/:photoId');
 
 		return resources;
   	}

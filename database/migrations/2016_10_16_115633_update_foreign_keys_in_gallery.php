@@ -15,7 +15,7 @@ class UpdateForeignKeysInGallery extends Migration
     {
         Schema::table('galleries', function ($table) {
             $table->dropForeign(['default_photo']);
-            $table->foreign('default_photo')->references('id')->on('photos')->onDelete('cascade');
+            $table->foreign('default_photo')->references('id')->on('photos')->onDelete('set null');
         });
 
         Schema::table('photos', function ($table) {
