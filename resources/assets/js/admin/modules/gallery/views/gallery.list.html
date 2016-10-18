@@ -18,7 +18,7 @@
               	<div class="timeline-item">
                 	<span class="time"><i class="fa fa-clock-o"></i> {{ gallery.created_at }}</span>
 
-                	<h3 class="timeline-header"><a href="#" ng-bind="gallery.name"></a> 
+                	<h3 class="timeline-header"><a ui-sref="gallery.manage({gallery_id: gallery.id})" ng-bind="gallery.name"></a> 
                 		{{ gallery.description | limitTo: 40 }}{{gallery.description.length > 40 ? '...' : ''}}
                 		<a ui-sref="gallery.manage({gallery_id: gallery.id})"><i class="fa fa-edit"></i></a>
                         <a ng-click="$controller.onDeleteGallery(gallery.id)"><i class="fa fa-remove red"></i></a>

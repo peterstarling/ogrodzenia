@@ -385,6 +385,7 @@
 <script src="dist/js/app.min.js"></script>
 <script type="text/javascript">
   window.access_token = '<% $access_token %>';
+  window.api_url = '<% $api_url %>';
 </script>
 </body>
 </html>

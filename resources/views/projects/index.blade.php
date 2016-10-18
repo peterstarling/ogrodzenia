@@ -12,11 +12,16 @@
 			
 			<div class="content-sub-page">
 			
-				<h3>Nieprzeciętne rozwiązania</h3>
 				<div>
 					@foreach($projects as $project)
 						<div class="col-lg-4 col-md-6 col-xs-6 thumb text-center">
-							
+							<div>
+							@if ($project['default_photo'])
+							 	<img src="{!! $project['default_photo_path']['mini'] !!}"><br>
+							 	<b>{!! $project['name'] !!}</b>
+							@endif
+							</div>
+							{!! var_dump($project) !!}
 						</div>
 					@endforeach
 				</div>

@@ -6,7 +6,7 @@ class API {
 	constructor($resource) {
 
 		const resources = {};
-		const url = 'http://ogrodzenia.dev/api'
+		const url = window.api_url;
 
 
 		resources.gallery = $resource(url + '/gallery/:id', null, {
