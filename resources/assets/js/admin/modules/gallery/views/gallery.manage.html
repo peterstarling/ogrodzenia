@@ -28,7 +28,15 @@
 <div class="box-footer">
 	<div id="photos" class="row">
 		<div ng-repeat="photo in $controller.gallery.photos track by photo.id" class="col-lg-4 col-md-6 col-xs-6 thumb text-center" style="height: 250px" ng-class="$controller.gallery.default_photo === photo.id ? 'default' : ''">
-			<img ng-src="{{photo.path.mini}}" style="margin: 5px auto"><br>
+			<div class="photo-element">
+				<img ng-src="{{photo.path.mini}}"><br>
+				<a ng-click="$controller.onDeletePhoto(photo.id)" href="#">
+	  				<i class="fa fa-remove" title="usuń"></i>
+	  			</a>
+	  			<a ng-click="$controller.onSetDefaultPhoto(photo.id)" href="#" ng-show="$controller.gallery.default_photo !== photo.id">
+	  				<i class="fa fa-check-square-o" title="ustaw jako domyślne"></i>
+	  			</a>
+			</div><br>
   			<span ng-bind="photo.title"></span>
   			<a ng-click="$controller.onSetDefaultPhoto(photo.id)" href="#" ng-show="$controller.gallery.default_photo !== photo.id">
   				<i class="fa fa-check-square-o" title="ustaw jako domyślne"></i>
@@ -56,7 +64,7 @@
 
 	                <div class="form-group">
 						<label for="title">Tytuł zdjęcia</label>
-						<input class="form-control" id="exampleInputEmail1" placeholder="Enter email"
+						<input class="form-control" id="title" placeholder="Wpisz tytuł"
 							ng-model="$controller.title">
 					</div>
 
@@ -102,5 +110,33 @@
 
 div#photos div.default img {
 	border: 2px solid green;
+}
+
+div.photo-element {
+	position: relative;
+	display: inline-block;
+}
+div.photo-element i {
+	color: #000;
+}
+
+div.photo-element i.fa-remove {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+div.photo-element i.fa-check-square-o {
+	position: absolute;
+	top: 5px;
+	right: 25px;
+}
+
+div.photo-element i.fa-remove:hover {
+	color: red;
+}
+
+div.photo-element i.fa-check-square-o:hover {
+	color: #4aad3b;
 }
 </style>

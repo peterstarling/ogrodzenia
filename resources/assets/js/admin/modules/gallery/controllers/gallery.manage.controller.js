@@ -18,13 +18,14 @@ export default class GalleryManageController {
 
     onSubmitPhoto() {
     	this.Upload.upload({
-            url: `http://ogrodzenia.dev/api/gallery/${this.gallery.id}/photos` ,
+            url: `${window.api_url}/gallery/${this.gallery.id}/photos` ,
             data: {photo: this.file, 'title': this.title},
             headers: {Authorization: `Bearer: ${window.access_token}`}
         }).then((resp) => {
             console.log('Success ' + resp.config.data.photo.name + 'uploaded. Response: ' + resp.data);
             this.file = null;
             this.progress = null;
+            this.title = null;
             this.loadGallery(this.gallery.id);
         }, function (resp) {
             console.log('Error status: ' + resp.status);

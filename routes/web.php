@@ -35,6 +35,12 @@ Route::get('cennik.html', 'PageController@priceList')->name('price-list');
 // Projects
 Route::get('realizacje.html', 'ProjectController@index')->name('projects');
 
+// Projects group
+Route::group(['prefix' => 'realizacje'], function () {
+	// One project
+	Route::get('{id}-{slug}.html', 'ProjectController@get')->name('project');
+});
+
 // Guidebook
 Route::get('poradnik.html', 'PageController@guidebook')->name('guidebook');
 
