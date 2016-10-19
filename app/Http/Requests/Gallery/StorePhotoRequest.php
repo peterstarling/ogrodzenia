@@ -25,7 +25,7 @@ class StorePhotoRequest extends BasicRequest
     {
         return [
             'title' => 'string|max:250',
-            'photo' => 'required|image|max:3072',
+            'photo' => 'required|image|max:30000',
         ];
     }
 

@@ -39,6 +39,6 @@ class ProjectController extends Controller
 
         $gallery = $this->gallery->find($id);
 
-        return view('projects/gallery')->with('gallery', $gallery)    ;
+        return view('projects/gallery')->with('gallery', $gallery)->with('photos', $gallery->photos);
     }
 }
