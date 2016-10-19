@@ -38,12 +38,6 @@
 	  			</a>
 			</div><br>
   			<span ng-bind="photo.title"></span>
-  			<a ng-click="$controller.onSetDefaultPhoto(photo.id)" href="#" ng-show="$controller.gallery.default_photo !== photo.id">
-  				<i class="fa fa-check-square-o" title="ustaw jako domyślne"></i>
-  			</a>
-  			<a ng-click="$controller.onDeletePhoto(photo.id)" href="#">
-  				<i class="fa fa-remove" title="usuń"></i>
-  			</a>
 		</div>
 	</div>
 </div>
@@ -71,11 +65,11 @@
 					<div class="form-group" id="file-uploader" 
 						ngf-drop ng-model="$controller.file" ngf-drag-over-class="'file-over'" 
 						ngf-multiple="false" ngf-pattern="'image/*'"
-						ngf-max-size="3MB" ngf-accept="'image/*'"> 
+						ngf-max-size="30MB" ngf-accept="'image/*'"> 
 						<label for="photo">File input</label>
 						<input type="file" class="button" ngf-select ng-model="$controller.file" name="file" 
 							ngf-pattern="'image/*'"
-						    ngf-accept="'image/*'" ngf-max-size="3MB" ngf-min-height="100">
+						    ngf-accept="'image/*'" ngf-max-size="30MB" ngf-min-height="100">
 						    Select</div>
 
 						<p class="help-block">Wybierz zdjęcie (max 3 Mb).</p>
