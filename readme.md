@@ -4,5 +4,5 @@ Technology used:
 
 * Laravel 5.3
 * Angular
-* ES6
+* ES6, Babel, Browserify
 
