@@ -27,4 +27,18 @@ class ProjectController extends Controller
 
         return view('projects/index')->with('projects', $this->gallery->all()->toArray());
     }
+
+    /**
+     * Display one project
+     *
+     * @return array
+     */
+    public function get($id, $slug)
+    {
+        \Meta::set('title', 'Realizacje');
+
+        $gallery = $this->gallery->find($id);
+
+        return view('projects/gallery')->with('gallery', $gallery)->with('photos', $gallery->photos);
+    }
 }

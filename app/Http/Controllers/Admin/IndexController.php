@@ -26,6 +26,8 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return view('admin/index')->with(['access_token' => $this->jwt->fromUser(\Auth::user())]);
+        return view('admin/index')
+        	->with(['access_token' => $this->jwt->fromUser(\Auth::user()),
+        			'api_url' => config('app.url') . '/api']);
     }
 }
