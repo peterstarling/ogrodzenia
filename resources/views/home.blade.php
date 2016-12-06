@@ -14,7 +14,7 @@
 				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
 				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
+				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
 		  	</div>
 		</div>
 
@@ -24,10 +24,11 @@
 		  	<div class="carousel-caption">
 				<h2>Stworzone dla&nbsp;ciebie <div class="sub-text-s">Wykonamy najtrudniejszy projekt</div></h2>
 				
-				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
+				<p>Oferujemy balustrady dla najbardziej wymagających klientów. Zaprojektujemy, wykonamy oraz zamontujemy zarówno balustrady zewnętrzne jak i wewnętrzne. Bogaty wybór wzorów oraz możliwości technicznych sprawi, że każdy klient odnajdzie ofertę dopasowaną do swoich potrzeb.</p>
+				<p>Postaramy się, aby ogrodzenie oraz balustrada balkonowa tworzył spójną całość i ozdobiły dom w możliwie najlepszy sposób.</p>
+				<p class="color-grey00">Proponujemy balustrady klasyczne oraz nowoczesne. Wykonamy zarówno barierki malowane proszkowo oraz ze stali nierdzewnej. Dodatek szkła lub drewna może jeszcze bardziej podkreślić indywidualny charaker projektu. Nasze wyroby zapewniają bezpieczeństwo trwałość na długie lata.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
+				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
 		  	</div>
 		</div>
 
@@ -37,10 +38,10 @@
 		  	<div class="carousel-caption">
 				<h2>Ułatwiamy codzienność <div class="sub-text-s">automatyka dla Ciebie</div></h2>
 
-				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
+				<p>Ułatwimy codzienność dzięki automatyce do bramy najlepszych producentów. Oferujemy sprzęt znanych marek takich jak FAAC czy Nice, jak również mniej znanych producentów (co nie znaczy, że gorszych) jak BFT czy Beninka. Proponujemy montaż, konserwację jak również serwis gwarancyjny i pogwarancyjny zamontowanych automatów. Dowiedz się więcej przechodząc do następnej podstrony gdzie opisaliśmy dla Ciebie możliwości zastosowania automatyki w Twoim domu.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
+				
+				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
 		  	</div>
 		</div>
 
@@ -50,10 +51,10 @@
 			<div class="carousel-caption">
 				<h2>Profesjonalny montaż <div class="sub-text-s">tylko najlepsi fachowcy</div></h2>
 
-				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
+				<p>Oferujemy sprzedaż oraz montaż bram garażowych najepszych producentów. Profesionalnie zamontujemy każdą bramę - Bramy garażowe segmentowe, roletowe, uchylne i rozwierne.</p>
+				<p class="color-grey00">Brama garażowa to przeważnie największa ruchoma cześć w domu. Często obsługiwana jest za pomocą napędu elektrycznego. Zanim zdecydujemy się na wybór bramy, powinniśmy szczegółowo przeanalizować dostępne możliwości.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
+				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
 			</div>
 		</div>
 
@@ -63,10 +64,10 @@
 		  	<div class="carousel-caption">
 				<h2>Prywatność i bezpieczeństwo <div class="sub-text-s">zadbamy o to</div></h2>
 
-				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
+				<p>Nasza Firma specjalizuje się również w montażu systemów osłonowych do okien. Polecamy piękne i przystępne cenowo rolety zewnętrzne.</p>
+				<p class="color-grey00">Funkcjonalne rolety zewnętrzne to doskonałe zabezpieczenie przed słońcem, wiatrem, deszczem, śniegiem i innymi zjawiskami atmosferycznymi. Zapewniają bardzo dobrą izolację termiczną budynku.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
+				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
 	  		</div>
 		</div>
 
@@ -76,10 +77,9 @@
 			<div class="carousel-caption">
 				<h2>Szybkość działania<div class="sub-text-s">Spóźniony klient? Pomożemy</div></h2>
 
-				<p>Firma BaluSteel SC specjalizuje się w produkcji oraz montażu ogrodzeń, balustrad, bram garażowych, automatyki, rolet zewnętrznych, konstrukcji stalowych oraz wszelkich innych elementów stalowych.</p>
-				<p class="color-grey00">Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Bardzo często łączymy swoje wyroby ze szkłem lub drewnem, tworząc oryginalne i nieprzeciętne rozwiązania.</p>
+				<p>Oferujemy wykonanie oraz montaż wszelkiego rodzaju konstrukcji stalowych. Możemy przygotować małe konstrukcje stalowe takie jak schody, podesty techniczne, belko stropowe oraz całe obiekty takie jak magazyny, niewielkie hale, wiaty itd. Konstrukcje stalowe zabezpieczamy antykorozyjnie najczęściej przez cynkowanie ogniowe lub malowanie zestawem farb antykorozyjnych. Oferujemy usługi montażu konstrukcji stalowych. Zachęcamy do współpracy.</p>
 				
-				<a href="#" class="button-more" target="_blank">Zobacz realizacje</a>
+				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>
 			</div>
 		</div>
 	</div>

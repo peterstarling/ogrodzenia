@@ -32,11 +32,20 @@ Route::get('oferta.html', 'PageController@offer')->name('offer');
 // Price list
 Route::get('cennik.html', 'PageController@priceList')->name('price-list');
 
-// Projects
-Route::get('realizacje.html', 'ProjectController@index')->name('projects');
+// Private projects
+Route::get('realizacje-prywatne.html', 'ProjectController@private')->name('private-projects');
+
+// Commercial projects
+Route::get('realizacje-dla-firm.html', 'ProjectController@commercial')->name('commercial-projects');
 
 // Guidebook
 Route::get('poradnik.html', 'PageController@guidebook')->name('guidebook');
+
+// FAQ
+Route::get('faq.html', 'PageController@faq')->name('faq');
+
+// FAQ
+Route::get('opinie.html', 'PageController@opinions')->name('opinions');
 
 Auth::routes();
 

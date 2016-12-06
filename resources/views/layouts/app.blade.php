@@ -44,8 +44,10 @@
 				<div class="top-tools hidden-xs">
 					<ul class="menu00">
 						<li><a href="{!! route('home') !!}">Strona główna</a></li>
-						<li><a href="{!! route('references') !!}">Referencje</a></li>
 						<li><a href="{!! route('about-us') !!}">O nas</a></li>
+						<li><a href="{!! route('references') !!}">Referencje</a></li>
+						<li><a href="{!! route('opinions') !!}">Opinie klientów</a></li>
+						<li><a href="{!! route('contact-us') !!}">Kontakt</a></li>
 					</ul>
 					<a href="#" class="o-lang">Polski <img src="/media/flag-pl.png"></a>
 					<form class="o-search hidden" action="#">
@@ -80,9 +82,10 @@
 						<ul class="menu">
 							<li><a href="{!! route('offer') !!}">Oferta</a></li>
 							<li><a href="{!! route('price-list') !!}">Cennik</a></li>
-							<li><a href="{!! route('projects') !!}">Realizacje</a></li>
+							<li><a href="{!! route('private-projects') !!}">Realizacje prywatne</a></li>
+							<li><a href="{!! route('private-projects') !!}">Realizacje dla firm</a></li>
 							<li><a href="{!! route('guidebook') !!}">Poradnik</a></li>
-							<li><a href="{!! route('contact-us') !!}">Kontakt</a></li>
+							<li><a href="{!! route('faq') !!}">Częste pytania</a></li>
 						</ul>
 				 
 					</div>
