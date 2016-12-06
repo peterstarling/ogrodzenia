@@ -379,7 +379,7 @@ margin: 0 0 32px 0;
 }
 
 .box-welcome-info p {
-color: #3c060a;
+color: #ffffff;
 font-size: 14px;
 font-weight: 200;
 margin: 0 0 25px 0;
@@ -773,6 +773,24 @@ margin-top: 0px;
 
 .content-sub-page ol li {
 margin-bottom: 5px;
+}
+
+ul.guidebook {
+list-style-type: none;
+padding-left: 0px;
+}
+
+ul.guidebook div {
+margin: 10px 0px;
+}
+.guidebook li {
+margin-bottom: 5px;
+}
+.guidebook li a {
+color: #464545;
+font-weight: bold;
+cursor: pointer;
+font-size: 15px;
 }
 
 .content-sub-page div.references img {

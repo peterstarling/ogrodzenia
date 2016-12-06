@@ -65,4 +65,28 @@ class PageController extends Controller
 
         return view('pages/price-list');
     }
+
+    /**
+     * Guidebook page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function guidebook()
+    {
+        \Meta::set('title', 'Poradnik');
+
+        return view('pages/guidebook');
+    }
+
+    /**
+     * FAQ page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function faq()
+    {
+        \Meta::set('title', 'Częste pytania');
+
+        return view('pages/faq');
+    }
 }
