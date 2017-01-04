@@ -38,7 +38,7 @@
 		  	<div class="carousel-caption">
 				<h2>Ułatwiamy codzienność <div class="sub-text-s">automatyka dla Ciebie</div></h2>
 
-				<p>Ułatwimy codzienność dzięki automatyce do bramy najlepszych producentów. Oferujemy sprzęt znanych marek takich jak FAAC czy Nice, jak również mniej znanych producentów (co nie znaczy, że gorszych) jak BFT czy Beninka. Proponujemy montaż, konserwację jak również serwis gwarancyjny i pogwarancyjny zamontowanych automatów. Dowiedz się więcej przechodząc do następnej podstrony gdzie opisaliśmy dla Ciebie możliwości zastosowania automatyki w Twoim domu.</p>
+				<p>Ułatwimy codzienność dzięki automatyce do bramy najlepszych producentów. Oferujemy sprzęt znanych marek takich jak FAAC czy Nice, jak również mniej znanych producentów (co nie znaczy, że gorszych) jak BFT czy Beninca. Proponujemy montaż, konserwację jak również serwis gwarancyjny i pogwarancyjny zamontowanych automatów. Dowiedz się więcej przechodząc do następnej podstrony gdzie opisaliśmy dla Ciebie możliwości zastosowania automatyki w Twoim domu.</p>
 				
 				
 				<a href="#" class="button-more" target="_blank">Zobacz więcej</a>

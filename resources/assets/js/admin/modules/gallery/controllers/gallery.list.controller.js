@@ -17,7 +17,6 @@ export default class GalleryListController {
     }
 
     onSubmitNew() {
-        console.log('yo');
         this.API.gallery.save({}, this.newGallery).$promise.then((response) => {
             this.loadGallery();
             this.newGallery = {};

@@ -17,15 +17,27 @@ class ProjectController extends Controller
 	}
 
     /**
-     * List all galleries
+     * List all private galleries
      *
      * @return array
      */
-    public function index()
+    public function private()
     {
-        \Meta::set('title', 'Realizacje');
+        \Meta::set('title', 'Realizacje prywatne');
 
-        return view('projects/index')->with('projects', $this->gallery->all()->toArray());
+        return view('projects/index')->with('projects', $this->gallery->where('category', 1)->get()->toArray());
+    }
+
+    /**
+     * List all commercial galleries
+     *
+     * @return array
+     */
+    public function commercial()
+    {
+        \Meta::set('title', 'Realizacje dla firm');
+
+        return view('projects/index')->with('projects', $this->gallery->where('category', 2)->get()->toArray());
     }
 
     /**
