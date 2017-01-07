@@ -18,11 +18,18 @@
 
 </div>
 <div class="box-body">
-  <div class="box-tools pull-right">
-    <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="edytuj">
+  <div class="pull-right">
+    <button type="button" class="btn btn-box-tool" title="edytuj" 
+    	ng-click="$controller.description_edit = !$controller.description_edit">
       <i class="fa fa-edit"></i></button>
   </div>
-  <div id="description" ng-bind="$controller.gallery.description"></div>
+  	<div ng-if="$controller.description_edit" class="form-group">
+	  	<form ng-submit="$controller.onUpdate()">
+	  		<textarea id="description_edit" class="form-control" ng-model="$controller.gallery.description"></textarea>
+	  		<input type="submit" class="btn btn-default">
+	  	</form>
+  	</div>
+  	<div ng-if="!$controller.description_edit" id="description" ng-bind="$controller.gallery.description"></div>
 </div>
 <!-- /.box-body -->
 <div class="box-footer">

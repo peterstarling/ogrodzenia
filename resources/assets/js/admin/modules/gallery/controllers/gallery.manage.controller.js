@@ -3,6 +3,7 @@ export default class GalleryManageController {
 	files = []
 	title = ''
 	progress = null
+    description_edit = false
 	
     constructor(API, Upload, $stateParams) {
     	this.API = API;
@@ -40,6 +41,16 @@ export default class GalleryManageController {
     		this.loadGallery(this.gallery.id);
     	});
     }
+
+    onUpdate() {
+        console.log(this.gallery.description);
+        this.API.gallery.update({id:this.gallery.id}, {description:this.gallery.description}).$promise
+        .then((response) => {
+            this.loadGallery(this.gallery.id);
+            this.description_edit = false;
+        });
+    }
+
 
     onDeletePhoto(photoId) {
     	this.API.photos.delete({galleryId:this.gallery.id, photoId:photoId}).$promise
