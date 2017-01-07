@@ -108,25 +108,25 @@
 		<div class="container">
 		  <div class="info-bottom">
 			<div class="one-box-phone">
-				Tel: +48 783 414 801 
+				Tel: +48 512 133 040 
 			</div> 
 			<div class="one-box-mail">
 				biuro@balusteel.pl
 			</div> 
 			<div class="one-box-location">
-				ul. Białoborska 16 04-668 Poznań &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Polska
+				ul. Prusa 58 64-610 Rogoźno k. Poznania, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Polska
 			</div>  
 		  </div>
 		  <div class="row copyright no-padding">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				
 				<ul class="bottom-menu">
-					<li><a href="./index.html">Strona główna</a></li>
-					<li><a href="./o-nas.html">O nas</a></li>
-					<li><a href="#">Poradnik</a></li>
-					<li><a href="#">Szlifowanie i polerowanie</a></li>
-					<li><a href="#">Referencje</a></li>
-					<li><a href="#">Kontakt</a></li>
+					<li><a href="{!! route('home') !!}">Strona główna</a></li>
+					<li><a href="{!! route('about-us') !!}">O nas</a></li>
+					<li><a href="{!! route('guidebook') !!}">Poradnik</a></li>
+					<li><a href="{!! route('faq') !!}">Częste pytania</a></li>
+					<li><a href="{!! route('references') !!}">Referencje</a></li>
+					<li><a href="{!! route('contact-us') !!}">Kontakt</a></li>
 				</ul>
 				
 				<div class="the-end-text">&copy; 2016 balusteel - Wszystkie prawa zastrzeżone.</div>

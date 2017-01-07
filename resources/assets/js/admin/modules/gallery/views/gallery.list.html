@@ -13,12 +13,15 @@
 	<div class="row">
         <ul class="timeline">
             <li ng-repeat="gallery in $controller.galleries track by gallery.id">
-            	<i class="fa fa-camera bg-purple"></i>
+            	<i class="fa fa-camera" 
+                    ng-class="{ 'bg-red': gallery.category == 1, 
+                    'bg-blue': gallery.category == 2 }"></i>
 
               	<div class="timeline-item">
                 	<span class="time"><i class="fa fa-clock-o"></i> {{ gallery.created_at }}</span>
 
-                	<h3 class="timeline-header"><a ui-sref="gallery.manage({gallery_id: gallery.id})" ng-bind="gallery.name"></a> 
+                	<h3 class="timeline-header"><a ui-sref="gallery.manage({gallery_id: gallery.id})" ng-bind="gallery.name"></a>
+                        {{ gallery.category == 1 ? '(prywatne)' : '(dla firm)'}} 
                 		{{ gallery.description | limitTo: 40 }}{{gallery.description.length > 40 ? '...' : ''}}
                 		<a ui-sref="gallery.manage({gallery_id: gallery.id})"><i class="fa fa-edit"></i></a>
                         <a ng-click="$controller.onDeleteGallery(gallery.id)"><i class="fa fa-remove red"></i></a>
@@ -45,6 +48,13 @@
                             <label for="title">Tytuł galerii</label>
                             <input class="form-control" id="title" placeholder="Wpisz tytuł"
                                 ng-model="$controller.newGallery.name">
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Kategoria</label>
+                            <select class="form-control" id="category" placeholder="wybierz kategorię" ng-model="$controller.newGallery.category">
+                                <option value="1">prywatna</option>
+                                <option value="2">dla firm</option>
+                            </select>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" ng-model="$controller.newGallery.description"

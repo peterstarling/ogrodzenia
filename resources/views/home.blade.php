@@ -147,16 +147,16 @@
 			
 			<div class="box-one-p00">
 				<div class="one-panel00 col-md-3 col-sm-3 col-xs-12">
-					<span class="n-date">02<sup>07</sup></span>
+					<%-- <span class="n-date">02<sup>07</sup></span> --%>
 					<h4>Produkty objęte gwarancją</h4>
 					<p>Wybierając produkty firmy BaluSteel wybierasz jakość. Wszystkie wykonane przez nas i zamontowane elementy objęte są gwarancją. W przypadku wystąpienia wad nigdy nie pozostaniesz bez fachowej pomocy.</p>
-					<a href="#" class="n-button-more">Więcej</a>
+					<%-- <a href="#" class="n-button-more">Więcej</a> --%>
 				</div>
 				<div class="one-panel00 col-md-3 col-sm-3 col-xs-12">
-					<span class="n-date">09<sup>07</sup></span>
-					<h4>Nam mattis lorem sit amet</h4>
-					<p>Morbi tincidunt purus et augue tristique maximus. In ac dictum massa. Cras a tellus non sapien commodo aliquet purus et augue tristique maximus.</p>
-					<a href="#" class="n-button-more">Więcej</a>
+					<%-- <span class="n-date">09<sup>07</sup></span> --%>
+					<h4>Wysoka jakość</h4>
+					<p>Dla nas najważniejszą misją jest zadowolenie kolejnych klientów. Wybierając produkty firmy BaluSteel wybierasz bezwzględną jakość przy zachowaniu cen dopasowanych do wymagań i budżetu zamawiającego. Oferujemy kompleksową obsługę od projektu, poprzez zakup materiałów po wykonanie i montaż.</p>
+					<%-- <a href="#" class="n-button-more">Więcej</a>--%>
 				</div>
 			</div>
 			

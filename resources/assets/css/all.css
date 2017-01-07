@@ -369,6 +369,14 @@ top: 0;
 right: 0;
 padding: 32px 25px 32px 32px;
 }
+@media only screen and (min-width: 768px) {
+.box-welcome-info {
+background-image: url(../media/pan2.png);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: 95%;
+}
+}
 
 .box-welcome-info h3 {
 color: #ffffff;
@@ -791,6 +799,19 @@ color: #464545;
 font-weight: bold;
 cursor: pointer;
 font-size: 15px;
+}
+
+.offer img {
+width: 150px;
+display: block;
+}
+
+@media only screen and (min-width: 481px) {
+.offer img {
+	float: right;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
 }
 
 .content-sub-page div.references img {
