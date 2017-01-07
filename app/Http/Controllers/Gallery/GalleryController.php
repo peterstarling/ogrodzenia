@@ -55,7 +55,7 @@ class GalleryController extends Controller
      */
     public function updateGallery(UpdateGalleryRequest $request, Gallery $gallery)
     {
-        $input = array_filter($request->only(['name', 'description', 'default_photo']));
+        $input = array_filter($request->only(['name', 'description', 'category', 'default_photo']));
         
         $gallery->update($input);
     }
@@ -71,7 +71,7 @@ class GalleryController extends Controller
     {
         $slug = str_slug($request->input('name'));
 
-    	$gallery = $this->gallery->create($request->only(['name', 'description']) + ['slug' => $slug]);
+    	$gallery = $this->gallery->create($request->only(['name', 'category', 'description']) + ['slug' => $slug]);
     	$this->responseParser->setCode(201);
 
         return $gallery->id;

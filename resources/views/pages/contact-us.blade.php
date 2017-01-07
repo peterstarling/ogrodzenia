@@ -15,7 +15,7 @@
 
 				<h3>Balusteel S.C. Łukasz Wieczorek Dawid Siodła</h3>
 				<p>
-				ul. Kościuszki 29<br>
+				ul. Prusa 58<br>
 				64-610 Rogoźno k. Poznania<br>
 				NIP PL606 009 43 67<br>
 				REGON 361288620<br>
