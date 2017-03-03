@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <div id="slider" class="carousel slide" data-ride="carousel">
 
@@ -129,7 +127,7 @@
 			</li>
 		</ul>
 
-		@include('layouts/box-welcome-info')
+		<?php echo $__env->make('layouts/box-welcome-info', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 	</div>
 
 	<div class="right-backdrop-color"></div>
@@ -147,16 +145,16 @@
 
 			<div class="box-one-p00">
 				<div class="one-panel00 col-md-3 col-sm-3 col-xs-12">
-					<%-- <span class="n-date">02<sup>07</sup></span> --%>
+					
 					<h4>Produkty objęte gwarancją</h4>
 					<p>Wybierając produkty firmy BaluSteel wybierasz jakość. Wszystkie wykonane przez nas i zamontowane elementy objęte są gwarancją. W przypadku wystąpienia wad nigdy nie pozostaniesz bez fachowej pomocy.</p>
-					<%-- <a href="#" class="n-button-more">Więcej</a> --%>
+					
 				</div>
 				<div class="one-panel00 col-md-3 col-sm-3 col-xs-12">
-					<%-- <span class="n-date">09<sup>07</sup></span> --%>
+					
 					<h4>Wysoka jakość</h4>
 					<p>Dla nas najważniejszą misją jest zadowolenie kolejnych klientów. Wybierając produkty firmy BaluSteel wybierasz bezwzględną jakość przy zachowaniu cen dopasowanych do wymagań i budżetu zamawiającego. Oferujemy kompleksową obsługę od projektu, poprzez zakup materiałów po wykonanie i montaż.</p>
-					<%-- <a href="#" class="n-button-more">Więcej</a>--%>
+					
 				</div>
 			</div>
 
@@ -165,4 +163,5 @@
 	</div>
 </div>
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

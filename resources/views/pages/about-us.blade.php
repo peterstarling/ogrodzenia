@@ -3,15 +3,15 @@
 @section('content')
 
 <div id="sub-page">
-		
+
 		<div class="sp-left">
 
 			<div class="title-sub-page">
-				<h2>O nas</h2>
+				<h1 class="h2">O nas</h1>
 			</div>
-			
+
 			<div class="content-sub-page">
-			
+
 				<p class="txt-line-2nd">Firma BaluSteel Ogrodzenia specjalizuje się w prodkucji ogrodzeń, balustrad, konstrukcji stalowych, schodów, zadaszeń, automatyki oraz innych elementów ze stali malowanej proszkowo oraz nierdzewnej. Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal nie ma przed nami żadnych tajemnic. Od początku istnienia spółką BaluSteel kieruje dwóch właścicieli, czynnie biorąc udział przy realizacji każdego zamówienia. Dzięki ciągłemu zaangażowaniu dbamy o zadowolenie klientów i nic nie pozostawiamy bez opieki. Na rynku Polskim oraz Europejskim istniejemy od wielu lat, ciągle umacniając swoją pozycję. Mimo rozwoju firmy nadal stawiamy na jakość, a nie ilość, co w dzisiejszych czasach często jest zapominane. Od początku do dnia dzisiejszego przyjęliśmy prostą strategię rozwoju - oferowanie produktów wysokiej jakości przy zachowaniu najbardziej konkurencyjnych cen.  Przez pozytywne opinie klientów jesteśmy liderem w swojej branży, a zdobywanie kolejnych zamówień staje się łatwiejsze.  Dzięki doświadczeniu oraz wyselekcjonowanej kadrze pracowników podejmiemy się każdego, nawet najtrudniejszego zlecenia.</p>
 
 				<p><b>Główne cechy naszej firmy to:</b><br>
@@ -28,11 +28,11 @@
 
 				<p>Do każdego zamówienia możliwość negocjacji rabatów!<br>
 				<b>Zapraszamy do współpracy osoby prywatne oraz firmy i instytucje.</b></p>
-			
+
 			</div>
 		</div>
 
 		@include('layouts/sp-right')
-		
+
 	</div>
 @stop

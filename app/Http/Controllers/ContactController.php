@@ -7,7 +7,9 @@ use App\Http\Requests\PostContactRequest;
 
 class ContactController extends Controller
 {
-
+    public function __construct() {
+        parent::__construct();
+    }
     /**
      * Contact us page.
      *
@@ -22,9 +24,9 @@ class ContactController extends Controller
 
     /**
      * Send e-mail and display confirmation
-     * 
+     *
      * @param  PostContactRequest $request
-     * 
+     *
      * @return Illuminate\Http\Response
      */
     public function send(PostContactRequest $request)

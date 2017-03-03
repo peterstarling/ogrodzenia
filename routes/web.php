@@ -27,6 +27,7 @@ Route::get('referencje.html', 'PageController@references')->name('references');
 Route::get('o-nas.html', 'PageController@aboutUs')->name('about-us');
 
 // Offer
+Route::get('oferta/{slug}.html', 'PageController@offerDetails');
 Route::get('oferta.html', 'PageController@offer')->name('offer');
 
 // Price list

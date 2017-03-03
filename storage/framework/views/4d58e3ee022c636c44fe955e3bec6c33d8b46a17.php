@@ -5,12 +5,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no">
 
-	<title>{!! Meta::get('title') !!} - {!! Meta::get('site_name') !!}</title>
-	{!! Meta::tag('description') !!}
+	<title><?php echo Meta::get('title'); ?> - <?php echo Meta::get('site_name'); ?></title>
+	<?php echo Meta::tag('description'); ?>
 
-	{!! Meta::tag('site_name', 'My site') !!}
-	{!! Meta::tag('url', getenv('REQUEST_URI')) !!}
-	{!! Meta::tag('locale', 'en_EN') !!}
+
+	<?php echo Meta::tag('site_name', 'My site'); ?>
+
+	<?php echo Meta::tag('url', getenv('REQUEST_URI')); ?>
+
+	<?php echo Meta::tag('locale', 'en_EN'); ?>
+
 
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
@@ -31,7 +35,7 @@
 	<meta name="theme-color" content="#ffffff">
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="{!! route('home') !!}/css/all.min.css?version=1.0" rel="stylesheet">
+    <link href="<?php echo route('home'); ?>/css/all.min.css?version=1.0" rel="stylesheet">
 </head>
 <body>
 	<div id="topline">
@@ -40,11 +44,11 @@
 			<div class="row no-padding">
 				<div class="top-tools hidden-xs">
 					<ul class="menu00">
-						<li><a href="{!! route('home') !!}">Strona główna</a></li>
-						<li><a href="{!! route('about-us') !!}">O nas</a></li>
-						<li><a href="{!! route('references') !!}">Referencje</a></li>
-						<li><a href="{!! route('opinions') !!}">Opinie klientów</a></li>
-						<li><a href="{!! route('contact-us') !!}">Kontakt</a></li>
+						<li><a href="<?php echo route('home'); ?>">Strona główna</a></li>
+						<li><a href="<?php echo route('about-us'); ?>">O nas</a></li>
+						<li><a href="<?php echo route('references'); ?>">Referencje</a></li>
+						<li><a href="<?php echo route('opinions'); ?>">Opinie klientów</a></li>
+						<li><a href="<?php echo route('contact-us'); ?>">Kontakt</a></li>
 					</ul>
 					<a href="#" class="o-lang">Polski <img src="/media/flag-pl.png"></a>
 					<form class="o-search hidden" action="#">
@@ -56,7 +60,7 @@
 		  <div class="row line-2nd no-padding">
 			<div class="col-md-4 col-sm-12 col-xs-12">
 				<div class="logo">
-                                    <a href="{!! route('home') !!}" class="a-logo"> </a>
+                                    <a href="<?php echo route('home'); ?>" class="a-logo"> </a>
 				</div>
 			</div>
 			<div class="col-md-8 col-sm-12 col-xs-12">
@@ -77,20 +81,20 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 						<ul class="menu navbar-nav  "> <!-- Fiksnąć to menu na mobile'u --->
-                                                    <li class="dropdown"><a href="{!! route('offer') !!}">Oferta</a>&nbsp;<a href="#"    class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ><i class=" glyphicon glyphicon-chevron-down"></i></a>
+                                                    <li class="dropdown"><a href="<?php echo route('offer'); ?>">Oferta</a>&nbsp;<a href="#"    class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ><i class=" glyphicon glyphicon-chevron-down"></i></a>
                                                             <ul class="dropdown-menu">
-                                                              <li><a href="{!! url('oferta/ogrodzenia.html') !!}">Ogrodzenia</a></li>
-                                                              <li><a href="{!! url('oferta/bramy-garazowe.html') !!}">Bramy garażowe</a></li>
-                                                              <li><a href="{!! url('oferta/automatyka-do-bram.html') !!}">Napędy i automatyka do bram</a></li>
-                                                              <li><a href="{!! url('oferta/rolety-zewnetrzne.html') !!}">Rolety zewnętrzne</a></li>
-                                                              <li><a href="{!! url('oferta/konstrukcje-stalowe.html') !!}">Konstrukcje stalowe</a></li>
+                                                              <li><a href="<?php echo url('oferta/ogrodzenia.html'); ?>">Ogrodzenia</a></li>
+                                                              <li><a href="<?php echo url('oferta/bramy-garazowe.html'); ?>">Bramy garażowe</a></li>
+                                                              <li><a href="<?php echo url('oferta/automatyka-do-bram.html'); ?>">Napędy i automatyka do bram</a></li>
+                                                              <li><a href="<?php echo url('oferta/rolety-zewnetrzne.html'); ?>">Rolety zewnętrzne</a></li>
+                                                              <li><a href="<?php echo url('oferta/konstrukcje-stalowe.html'); ?>">Konstrukcje stalowe</a></li>
                                                             </ul>
                                                         </li>
-							<li><a href="{!! route('price-list') !!}">Cennik</a></li>
-							<li><a href="{!! route('private-projects') !!}">Realizacje prywatne</a></li>
-							<li><a href="{!! route('commercial-projects') !!}">Realizacje dla firm</a></li>
-							<li><a href="{!! route('guidebook') !!}">Poradnik</a></li>
-							<li><a href="{!! route('faq') !!}">Częste pytania</a></li>
+							<li><a href="<?php echo route('price-list'); ?>">Cennik</a></li>
+							<li><a href="<?php echo route('private-projects'); ?>">Realizacje prywatne</a></li>
+							<li><a href="<?php echo route('commercial-projects'); ?>">Realizacje dla firm</a></li>
+							<li><a href="<?php echo route('guidebook'); ?>">Poradnik</a></li>
+							<li><a href="<?php echo route('faq'); ?>">Częste pytania</a></li>
 						</ul>
 
 					</div>
@@ -103,10 +107,10 @@
 
 	</div>
 
-	@yield('content')
+	<?php echo $__env->yieldContent('content'); ?>
 
 
-	@include('layouts/testimonials')
+	<?php echo $__env->make('layouts/testimonials', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
     <div id="footer">
 
@@ -129,12 +133,12 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 
 				<ul class="bottom-menu">
-					<li><a href="{!! route('home') !!}">Strona główna</a></li>
-					<li><a href="{!! route('about-us') !!}">O nas</a></li>
-					<li><a href="{!! route('guidebook') !!}">Poradnik</a></li>
-					<li><a href="{!! route('faq') !!}">Częste pytania</a></li>
-					<li><a href="{!! route('references') !!}">Referencje</a></li>
-					<li><a href="{!! route('contact-us') !!}">Kontakt</a></li>
+					<li><a href="<?php echo route('home'); ?>">Strona główna</a></li>
+					<li><a href="<?php echo route('about-us'); ?>">O nas</a></li>
+					<li><a href="<?php echo route('guidebook'); ?>">Poradnik</a></li>
+					<li><a href="<?php echo route('faq'); ?>">Częste pytania</a></li>
+					<li><a href="<?php echo route('references'); ?>">Referencje</a></li>
+					<li><a href="<?php echo route('contact-us'); ?>">Kontakt</a></li>
 				</ul>
 
                             <div class="the-end-text">&copy; 2016 <span itemprop="name">Balusteel</span> - Wszystkie prawa zastrzeżone.</div>

@@ -3,15 +3,15 @@
 @section('content')
 
 <div id="sub-page">
-		
+
 		<div class="sp-left">
 
 			<div class="title-sub-page">
-				<h2>Oferta</h2>
+				<h1 class="h1">Oferta</h1>
 			</div>
-			
+
 			<div class="content-sub-page offer">
-			
+
 				<h2>Nowoczesne ogrodzenia i bramy przesuwne z automatyką</h2>
 				<p class="txt-line-2nd">Ogrodzenie to element dekoracyjny o szczególnym znaczeniu. Wszak pierwszą rzeczą którą spotyka każdy z naszych gości jest właśnie ogrodzenie. Jest to nasza wizytówka, dlatego wato zainwestować w jego dobrą jakość. Do wybranych ogrodzeń dopasowujemy bramy oraz furtki z możliwością zamontowania automatyki. Zapewniamy kompleksową usłgę - dowóz i montaż, wykonanie pomiarów, projektu, przygotowanie fundamentów oraz wszystkich niezbędnych instalacji. Ilość wzorów, kształtów i rozwiązań technicznych jest nieograniczona. Każdy z naszych Klientów może wedle uznania dokonać wyboru wzoru oraz stylu bramy wjazdowej swojej posesji.</p>
 				<p><b>BaluSteel Ogrodzenia szczególnie poleca:</b><br>

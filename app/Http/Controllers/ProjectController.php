@@ -13,7 +13,8 @@ class ProjectController extends Controller
 
 	public function __construct(Gallery $gallery)
 	{
-		$this->gallery = $gallery;
+            parent::__construct();
+            $this->gallery = $gallery;
 	}
 
     /**
@@ -47,9 +48,9 @@ class ProjectController extends Controller
      */
     public function get($id, $slug)
     {
-        \Meta::set('title', 'Realizacje');
-
         $gallery = $this->gallery->find($id);
+
+        \Meta::set('title', $gallery->name . ' - Realizacje');
 
         return view('projects/gallery')->with('gallery', $gallery)->with('photos', $gallery->photos);
     }

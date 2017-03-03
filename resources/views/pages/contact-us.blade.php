@@ -3,15 +3,15 @@
 @section('content')
 
 <div id="sub-page">
-		
+
 		<div class="sp-left">
 
 			<div class="title-sub-page">
-				<h2>Kontakt</h2>
+				<h1 class="h2">Kontakt</h1>
 			</div>
-			
+
 			<div class="content-sub-page">
-			
+
 
 				<h3>Balusteel S.C. Łukasz Wieczorek Dawid Siodła</h3>
 				<p>
@@ -20,7 +20,7 @@
 				NIP PL606 009 43 67<br>
 				REGON 361288620<br>
 				</p>
-				
+
 				<p>
 				tel. <b>783 414 801</b><br>
 				e-mail: <b>biuro@balusteel.pl</b><br>
@@ -104,13 +104,13 @@
 						</div>
 					{!! Form::close() !!}
 				</p>
-			
+
 			</div>
 		</div>
 
 		<div class="sp-right">
-			
-			<div class="sp-top">					
+
+			<div class="sp-top">
 				<div class="box-welcome-info">
 
 					<h3>Wieloletnie doświadczenie oraz zdobyta wiedza sprawiają, że stal szlachetna nie ma przed nami żadnych tajemnic.</h3>
@@ -135,7 +135,7 @@
 				</div>
 				<div class="right-backdrop-color-subpage02"></div>
 			</div>
-			
+
 		</div>
 
 	</div>

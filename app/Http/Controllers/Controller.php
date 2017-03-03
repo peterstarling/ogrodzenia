@@ -16,6 +16,6 @@ class Controller extends BaseController
     	\Meta::set('site_name', 'Balusteel Ogrodzenia');
     	\Meta::set('url', 'URL');
     	\Meta::set('locale', 'pl_PL');
-    	\Meta::title('Balusteel');
+    	//\Meta::title('Balusteel');
     }
 }

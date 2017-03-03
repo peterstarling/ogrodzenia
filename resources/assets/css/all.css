@@ -1114,14 +1114,15 @@ display: none;
 
 @media only screen and (max-width: 400px) {
 
-#slider ul.carousel-indicators li, #slider ul.carousel-indicators li.active {
-width: 50%;
-}
+    #slider ul.carousel-indicators li, #slider ul.carousel-indicators li.active {
+    width: 50%;
+    }
 
-#slider .carousel-caption {
-padding-top: 100px;
-}
+    #slider .carousel-caption {
+    padding-top: 100px;
+    }
 
-.info-bottom [class*='one-box-'] {
-padding: 60px 19px 20px 19px;
+    .info-bottom [class*='one-box-'] {
+    padding: 60px 19px 20px 19px;
+    }
 }

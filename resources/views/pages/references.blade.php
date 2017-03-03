@@ -3,15 +3,15 @@
 @section('content')
 
 <div id="sub-page">
-		
+
 		<div class="sp-left">
 
 			<div class="title-sub-page">
-				<h2>Referencje</h2>
+				<h1 class="h2">Referencje</h1>
 			</div>
-			
+
 			<div class="content-sub-page">
-			
+
 				<div class="row references">
 				 	<div class="col-md-4">
 				 		<a href="/media/references/poznanska_13.jpg" target="_blank">
@@ -26,7 +26,7 @@
 						<img src="media/references/referencje1.jpg"></a>
 					</div>
 				</div>
-			
+
 			</div>
 		</div>
 
