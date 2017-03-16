@@ -1,15 +1,17 @@
+
+
 <?php $__env->startSection('content'); ?>
 
 <div id="sub-page">
-		
+
 		<div class="sp-left">
 
 			<div class="title-sub-page">
-				<h2>Cennik</h2>
+				<h1 class="h2">Cennik</h1>
 			</div>
-			
+
 			<div class="content-sub-page">
-			
+
 				<p class="txt-line-2nd">
 				<b>Podane ceny są cenami orientacyjnymi!</b><br>
 				Dla poznania dokładnej ceny zapraszamy do działu kontakt. Prześlij nam zapytanie, z krótkim opisem, poglądowym zdjęciem, a na pewno otrzymasz odpowiedź. Dokładamy wszelkich starań, aby przygotwać ofertę w ciągu 48 godzin.</p>
@@ -27,7 +29,7 @@
 				<p class="txt-line-2nd basic">
 				Poniżej podajemy szacunkowe ceny obejmujące pomiary,projekt, wykonanie i montaż
 				</p>
-				
+
 				<h2>Ogrodzenia</h2>
 				<p class="txt-line-2nd basic">
 					<ol>
