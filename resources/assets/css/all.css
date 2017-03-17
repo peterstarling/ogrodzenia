@@ -371,6 +371,7 @@ padding: 32px 25px 32px 32px;
 }
 @media only screen and (min-width: 768px) {
 .box-welcome-info {
+background-image: url(../media/pan2.png);
 background-repeat: no-repeat;
 background-position: bottom;
 background-size: 95%;
@@ -1125,3 +1126,44 @@ display: none;
     padding: 60px 19px 20px 19px;
     }
 }
+<<<<<<< HEAD
+=======
+
+.h2 {
+    color: #efefef;
+    display: table-cell;
+    font-family: Exo;
+    font-size: 70px;
+    font-weight: 100;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+.dropdown-menu li a {
+    font-weight:bold;
+    font-size:12px;
+}
+ul.menu li:first-child {
+    margin:0 20px; ;
+}
+.menu .divider {
+    border-top:1px solid gray;
+}
+               
+#slider {
+    max-height:800px;
+    height:100%;
+}
+
+#slider .item {
+    max-height: 800px;
+    height: 100%;
+}
+
+#slider .carousel-caption h2 {
+    margin:0 0 40px;
+}
+
+div.logo,ul.menu{margin:0;padding:0}
+div.logo a.a-logo{background:url(../media/logov1-png.png) no-repeat;background-size:contain;width:100%;min-height:65px;height:100%;display:inline-block;text-indent:-9999px}
+>>>>>>> seo-test
