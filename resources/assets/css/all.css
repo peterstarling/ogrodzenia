@@ -1126,3 +1126,38 @@ display: none;
     padding: 60px 19px 20px 19px;
     }
 }
+
+.h2 {
+    color: #efefef;
+    display: table-cell;
+    font-family: Exo;
+    font-size: 70px;
+    font-weight: 100;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+.dropdown-menu li a {
+    font-weight:bold;
+    font-size:12px;
+}
+ul.menu li:first-child {
+    margin:0 20px; ;
+}
+.menu .divider {
+    border-top:1px solid gray;
+}
+               
+#slider {
+    max-height:800px;
+    height:100%;
+}
+
+#slider .item {
+    max-height: 800px;
+    height: 100%;
+}
+
+#slider .carousel-caption h2 {
+    margin:0 0 40px;
+}
